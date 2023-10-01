@@ -70,14 +70,14 @@ const Booking = () => {
       });
     } else {
       axios
-        .post("https://rvh-backend.vercel.app/api/room/booking-details", {
+        .post("https://rvh-backend-coral.vercel.app/api/room/booking-details", {
           bookingRef: bookingRef,
         })
         .then((result) => {
           setBookingDetails(result.data);
           axios
             .get(
-              `https://rvh-backend.vercel.app/api/room/room-details/${result?.data?.roomId}`
+              `https://rvh-backend-coral.vercel.app/api/room/room-details/${result?.data?.roomId}`
             )
             .then((res) => {
               setRoomDetails(res.data);
@@ -109,7 +109,7 @@ const Booking = () => {
 
   const handleCancelBooking = () => {
     axios
-      .post(`https://rvh-backend.vercel.app/api/room/cancel-booking`, {
+      .post(`https://rvh-backend-coral.vercel.app/api/room/cancel-booking`, {
         id: bookingId,
       })
       .then((res) => {
