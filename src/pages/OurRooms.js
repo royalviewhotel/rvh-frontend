@@ -130,7 +130,7 @@ const OurRooms = () => {
 
                   {roomData[0]?.isAvailable ? (
                     <>
-                      <button className="btn btn-primary cursor-default py-4 w-full">
+                      <button className="btn btn-primary cursor-default py-4 w-full bg-[#141b2d]">
                         PRICE: {roomData[0]?.roomPrice}.00 AED PER NIGHT
                       </button>
 
@@ -397,7 +397,7 @@ const OurRooms = () => {
 
                   {roomData[1]?.isAvailable ? (
                     <>
-                      <button className="btn btn-primary cursor-default py-4 w-full">
+                      <button className="btn btn-primary cursor-default py-4 w-full bg-[#141b2d]">
                         PRICE: {roomData[1]?.roomPrice}.00 AED PER NIGHT
                       </button>
 
@@ -671,7 +671,7 @@ const OurRooms = () => {
                   </div>
                   {roomData[2]?.isAvailable ? (
                     <>
-                      <button className="btn btn-primary cursor-default py-4 w-full">
+                      <button className="btn btn-primary cursor-default py-4 w-full bg-[#141b2d]">
                         PRICE: {roomData[2]?.roomPrice}.00 AED PER NIGHT
                       </button>
 
@@ -928,7 +928,7 @@ const OurRooms = () => {
                   </div>
                   {roomData[3]?.isAvailable ? (
                     <>
-                      <button className="btn btn-primary cursor-default py-4 w-full">
+                      <button className="btn btn-primary cursor-default py-4 w-full bg-[#141b2d]">
                         PRICE: {roomData[3]?.roomPrice}.00 AED PER NIGHT
                       </button>
 
